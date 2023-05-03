@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/nathanandrews/Desktop/c#_projects/boids/boids.csproj": {}
+  },
+  "projects": {
+    "/Users/nathanandrews/Desktop/c#_projects/boids/boids.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/nathanandrews/Desktop/c#_projects/boids/boids.csproj",
+        "projectName": "boids",
+        "projectPath": "/Users/nathanandrews/Desktop/c#_projects/boids/boids.csproj",
+        "packagesPath": "/Users/nathanandrews/.nuget/packages/",
+        "outputPath": "/Users/nathanandrews/Desktop/c#_projects/boids/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/nathanandrews/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.7.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/nathanandrews/.vscode-dotnet-sdk/.dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
